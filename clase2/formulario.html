@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <h1>Formulario</h1>
+    </header>
+    <hr>
+        <main>
+            <form action="">
+                <fieldset>
+                    <legend> Formulario a completar</legend>
+                <div>
+                    <label for="name">Escriba su nombre</label>
+                    <input type="text" name="name" placeholder="Gonzalo">
+                </div>
+                <br>
+                <div>
+                    <label for="apellido">Escriba su apellido</label>
+                    <input type="text" name="apellido" placeholder="Rodriguez">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Escriba su correo electrónico</label>
+                    <input type="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="pass">Escriba su contraseña</label>
+                    <input type="password" name="pass">
+                </div>
+                <br>
+                <div>
+                    <label for="nac">Elija su nacionalidad</label>
+                    <select name="nac" id="">
+                    <option value="arg">Argentina</option>
+                    <option value="ur">Uruguay</option>
+                    <option value="br">Brasil</option>
+                    <option value="pr">Peru</option>
+                </select>
+                </div>
+                <br>
+                <div>
+                    <label for="sexo">Elija su género</label>
+                    <input type="radio" name="sexo" value="muj">Mujer
+                    <input type="radio" name="sexo" value="var">Hombre
+                    <input type="radio" name="sexo" value="otro">No Binario
+                    
+                </div>
+                <br>
+                <div>
+                    <label for="comentario">Escriba su consulta</label><br>
+                    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="terminos">Acepta términos y condiciones
+                        <input type="checkbox" name="terminos" value="1">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar datos">
+                    <input type="reset" value="Borrar datos">
+                </div>
+            </fieldset>
+            </form>
+        </main>
+  
+</body>
+</html>
